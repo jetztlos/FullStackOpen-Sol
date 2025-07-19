@@ -1,0 +1,33 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "content": "custom hooks are awesome"
+    },
+    {
+      "id": "2",
+      "content": "best feature ever <3"
+    },
+    {
+      "id": "f7c5",
+      "content": "right on my wish list"
+    }
+  ],
+  "persons": [
+    {
+      "id": "1",
+      "name": "Matti Luukkainen",
+      "number": "040-12344565"
+    },
+    {
+      "id": "2",
+      "name": "Tarja Halonen",
+      "number": "040-2223334"
+    },
+    {
+      "id": "6c16",
+      "name": "Anonymous",
+      "number": "999-565344123"
+    }
+  ]
+}
