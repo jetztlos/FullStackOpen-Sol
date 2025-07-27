@@ -1,0 +1,32 @@
+{
+  "name": "fitness-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",                      
+  "scripts": {
+    "ts-node": "ts-node",
+    "calculateBmi": "ts-node components/bmiCalculator.ts",
+    "calculateExercises": "ts-node components/exerciseCalculator.ts",
+    "start": "tsc && node dist/index.js",        
+    "dev": "ts-node-dev --respawn --loader ts-node/esm index.ts",     
+    "lint": "eslint . --ext .ts"
+  },
+  "author": "Juha Järvensivu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "@stylistic/eslint-plugin": "^2.12.1",
+    "@types/eslint__js": "^8.42.3",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.17.10",
+    "eslint": "^9.18.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.22.0"
+  }
+}
